@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.hedder{
+    width: 1358px;
+    height: 50px;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+div.hedder>div.first>a,div.work{
+    padding: 20px;
+    display: inline;
+    width: 120px;
+    height: 40px;
+    text-decoration:none;
+    font-size: 17px;
+    color: gray;
+    line-height: 40px;
+}
+div.work>a{
+      text-decoration: none;
+      padding: 10px;
+      box-sizing: border-box;
+      color: white;
+      border: 20px;
+      border-radius: 8px;
+      background-color: rgb(234,76,137);
+}
+div.body{
+    width: 80%;
+    padding: 50px;
+    margin: 50px auto;
+}
+div.body>img{
+    width: 6%;
+}
+div.body>p{
+    width: 60%;
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    font-weight: bold;
+}
+div.body>p>a{
+    font-weight:normal;
+    text-decoration: none;
+    color: black;
+}
+div.body>p>a.save,a.like{
+
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 20px;
+    border-radius: 8px;
+ 
+}
+div.body>p>a.save{
+  
+    margin-left: 450px;
+    background-color: rgb(243,243,244);
+    color: black;
+}
+div.body>p>a.like{
+
+    margin-left: 530px;
+    background-color: rgb(234,76,137);
+    color: white;
+}
+div.body>p>img{
+    border-radius: 20px;
+}
+div.body>p>span{
+   display: block;
+   width: 800px;
+   font-weight: normal;
+    font-size: 24px;
+}
+div.body>p>span>a{
+    text-decoration: none;
+    color:  rgb(234,76,137);
+    font-weight: bold;
+}
+div.body>p>img.lines{
+   position: relative;
+   margin-left: 345px;
+   border-radius: 100%;
+   
+}
+a.pic{
+    position: absolute;
+    margin-left: 400px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+h2{
+    font-weight: unset;
+    margin-left: 375px;
+    font-size: 20px;
+}
+a.hireus{
+    font-weight: bold;
+    position: absolute;
+    margin-left: 32%;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border: 20px;
+    border-radius: 8px;
+    background-color: rgb(234,76,137);
+}
+div.body2{
+    width: 82%;
+    padding: 50px;
+    margin: 50px auto;
+}
+div.body2>p{
+    font-size: 20px;
+    width: 60%;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: bold;
+}
+div.body2>img{
+    width:23%;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+div.body2>p>a{
+    position: absolute;
+    font-weight:normal;
+    font-size: 18px;
+    color:rgb(234,76,137) ;
+    text-decoration: none;
+    margin-left: 700px;
+}
+div.footer{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(250,250,251);
+    padding: 50px;
+    margin: 50px auto;
+}
+div.footer>p{
+    display: inline-block;
+    vertical-align: top;
+}
+p.column1{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px 2px;
+    margin-left: 80px;
+    vertical-align: top;
+}
+p.column1>a{
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+}
+p.column2{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px 2px;
+    margin-left: 80x;
+    vertical-align: top;
+}
+p.column2>a{
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+}
+p.column3{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px 2px;
+    margin-left: 80px;
+    vertical-align: top;
+}
+p.column3>a{
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+}
+p.column4{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px 2px;
+    margin-left: 80px;
+    vertical-align: top;
+}
+p.column4>a{
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+}
+p.column5{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px 2px;
+    margin-left: 70px;
+    vertical-align: top;
+}
+p.column5>a{
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+}
+div.footer2{
+    width: 100%;
+    background-color:rgb(250,250,251);
+    padding: 50px;
+    margin: 50px auto;
+}
+div.footer2>p{
+    display: inline-block;
+    vertical-align: top;
+}
+p.copyright{
+    position: absolute;
+    margin-left: 800px;
+}
+p.copyright>img{
+    vertical-align:top ;
+    width: 26px;
+}
